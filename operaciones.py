@@ -25,12 +25,12 @@ num1 = float(input("Ingresa el primer número: "))
 num2 = float(input("Ingresa el segundo número: "))
 
 if eleccion == '1':
-    print("Resultado:", suma(num1, num2))
+    print("Resultado de la suma es:", suma(num1, num2))
 elif eleccion == '2':
-    print("Resultado:", resta(num1, num2))
+    print("Resultado de la resta es:", resta(num1, num2))
 elif eleccion == '3':
-    print("Resultado:", multiplicacion(num1, num2))
+    print("Resultado de la multiplicacion es:", multiplicacion(num1, num2))
 elif eleccion == '4':
-    print("Resultado:", division(num1, num2))
+    print("Resultado de la division es:", division(num1, num2))
 else:
     print("Entrada no válida")
