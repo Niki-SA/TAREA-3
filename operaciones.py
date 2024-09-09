@@ -13,10 +13,10 @@ def division(a, b):
     else:
         return "Error: División por cero"
 
-print("Selecciona operación:")
+print("Selecciona:")
 print("1. Suma")
 print("2. Resta")
-print("3. Multiplicación")
+print("3. Mu")
 print("4. División")
 
 eleccion = input("Ingresa elección (1/2/3/4): ")

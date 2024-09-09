@@ -6,5 +6,5 @@ def generar_contrasena(longitud):
     contrasena = ''.join(random.choice(caracteres) for i in range(longitud))
     return contrasena
 
-longitud = int(input("Ingresa la longitud de la contraseña: "))
+longitud = int(input("mmmmmmm: "))
 print("Contraseña generada:", generar_contrasena(longitud))
